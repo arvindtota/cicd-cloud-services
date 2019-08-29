@@ -1,6 +1,12 @@
-# cicd-pipeline-train-schedule-autodeploy
+# cicd-cloud-services
 
-This is a simple train schedule app written using nodejs. It is intended to be used as a sample application for a series of hands-on learning activities.
+This is a simple business cloud services application written using nodejs. 
+
+It used Jenkins for Continuous Integration and Continuous Deployment.
+
+It uses containerization and orchestration tools like Docker and Kubernetes.
+
+Jenkins uses the code in Github and builds the jobs whenever there is an update in the code, and it deploys the application in the kubernetes.
 
 ## Running the app
 
